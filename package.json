@@ -1,0 +1,17 @@
+{
+  "name": "uniswap-swap-script",
+  "version": "1.0.0",
+  "description": "Uniswap trading script using ethers.js and universal router",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.7.0",
+    "@uniswap/sdk-core": "^3.0.3",
+    "@uniswap/universal-router-sdk": "^1.1.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.8.0",
+    "readline-sync": "^1.4.10"
+  }
+}
